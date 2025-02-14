@@ -35,11 +35,20 @@
     </licenses>
 
     <!-- transitive dependencies of the repackaged artifact -->
-    <dependencies>
+    <dependencyManagement>
+        <dependencies>
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
             <artifactId>jersey-media-moxy</artifactId>
             <version>${jersey-media-moxy.version}</version>
+        </dependency>
+    </dependencies>
+    </dependencyManagement>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-moxy</artifactId>
         </dependency>
     </dependencies>
 
