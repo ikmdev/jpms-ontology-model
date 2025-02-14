@@ -13,7 +13,7 @@
     <groupId>dev.ikm.jpms</groupId>
     <artifactId>ontology-model</artifactId>
     <name>Snorocket</name>
-    <version>4.1.0-r8</version>
+    <version>4.1.0-r9-SNAPSHOT</version>
 
     <properties>
         <!-- change release here-->
