@@ -1,5 +1,5 @@
 # jpms-ontology-model
-This repository contains a Java Platform Module System (JPMS) compliant version of the ANTLR4 runtime library. The goal of this project is to provide a modularized version of the ANTLR4 runtime that can be easily integrated into Java projects using JPMS.
+The jpms-ontology-model repository is dedicated to making the ontology-model module compliant with the Java Platform Module System (JPMS). This compliance ensures that the ontology-model library can be seamlessly integrated into modular Java applications, leveraging the benefits of JPMS such as improved encapsulation, security, and maintainability.
 
 ## Features
 
@@ -16,21 +16,21 @@ Add the following dependency to your pom.xml:
 ```xml
 <dependency>
     <groupId>dev.ikm.jpms</groupId>
-	<artifactId>antlr4-runtime</artifactId>
-    <version>${lajpms-ontology-model-version}</version>
+	<artifactId>ontology-model</artifactId>
+    <version>${latest-jpms-ontology-model-version}</version>
 </dependency>
 ```
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:antlr4-runtime:${lajpms-ontology-model-version}'
+implementation 'dev.ikm.jpms:antlr4-runtime:${latest-jpms-ontology-model-version}'
 ```
 
-In your module descriptor (module-info.java), declare the dependency on the antlr4.runtime module:
+In your module descriptor (module-info.java), declare the dependency on the jpms-ontology-model module:
 
 ```java
 module your.module.name {
-    requires dev.ikm.jpms.antlr4.runtime;
+    requires dev.ikm.jpms.activej.bytebuf;
 }
 ```
 
