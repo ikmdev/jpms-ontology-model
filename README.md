@@ -23,7 +23,7 @@ Add the following dependency to your pom.xml:
 
 Add the following dependency to your build.gradle:
 ```groovy
-implementation 'dev.ikm.jpms:antlr4-runtime:${latest-jpms-ontology-model-version}'
+implementation 'dev.ikm.jpms:ontology-model:${latest-jpms-ontology-model-version}'
 ```
 
 In your module descriptor (module-info.java), declare the dependency on the jpms-ontology-model module:
