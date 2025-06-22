@@ -13,7 +13,7 @@
     <groupId>dev.ikm.jpms</groupId>
     <artifactId>ontology-model</artifactId>
     <name>Ontology Model</name>
-    <version>4.1.0-r9-SNAPSHOT</version>
+    <version>4.1.0-r9</version>
 
     <properties>
         <!-- change release here-->
